@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -20,7 +22,8 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+/*Changed to ID because it only affects seo in logo*/
+#header h1 .seo {
     color: #d9dcd6;
 }
 
