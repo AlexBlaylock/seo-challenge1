@@ -22,8 +22,8 @@ body {
     font-size: 48px;
 }
 
-/*Changed to ID because it only affects seo in logo*/
-#header h1 .seo {
+
+.header h1 .seo {
     color: #d9dcd6;
 }
 
