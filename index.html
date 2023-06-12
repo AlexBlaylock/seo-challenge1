@@ -14,9 +14,10 @@
         <h1>Hori<span class="seo">seo</span>n</h1>
         <!--Switched to <nav> here-->
         <nav>
+            <!--Realized that my buttons did not work, used reference code to figure out fix-->
             <ul>
                 <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <a href="#seo">Search Engine Optimization</a>
                 </li>
                 <li>
                     <a href="#online-reputation-management">Online Reputation Management</a>
@@ -30,10 +31,10 @@
 
     <div class="hero"> </div>
     <!--switch to main tag here-->
-    <main class=" content">
+    <main class="content">
 
         <!--SEO 1st Bar-->
-        <Section class="main-info">
+        <Section id="seo" class="main-info">
             <img src="./assets/images/seo.jpg" alt="Notebook that has core ideas of search engine optimization." class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -42,7 +43,7 @@
         </Section>
         
         <!--Online Reputation Management 2nd Bar-->
-        <section class="main-info">
+        <section id="online-reputation-management" class="main-info">
             <!--[FIXED]I was unable to get ./assets/images/online-reputation-management.jpg to work, but putting develop inplace of . worked. I believe this is due to my index.html file being outside of the develop folder. [FIXED, ./ now properly works]-->
             <img src="./assets/images/online-reputation-management.jpg" alt="Person holding phone while looking at a graph of reputation going up and to the right." class="float-right" />
             <h2>Online Reputation Management</h2>
@@ -52,7 +53,7 @@
         </section>
 
         <!--Social Media 3rd Bar-->
-        <section class="main-info">
+        <section id="social-media-marketing" class="main-info">
             <img src="./assets/images/social-media-marketing.jpg" alt="Top down view of 6 people at a table. They are tweeting and sharing content and analysing data." class="float-left" />
             <!--Kept h2 here because it is in the same section as the other h2.-->
             <h2>Social Media Marketing</h2>
