@@ -6,6 +6,7 @@ Some struggles I had with this project involved my pathing issues I had at the s
 
 References used to help me with my code:
 https://www.washington.edu/accesscomputing/webd2/student/unit2/common_tags.html
+I used reference code to double check and compare my code, making sure that the code given had same/similar values for text size and etc.
 For my href fix on 20, 23, 26, I used the reference code.
 
 Screenshot of my page:
